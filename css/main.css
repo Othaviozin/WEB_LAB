@@ -1,0 +1,53 @@
+#titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 55px;
+    font-weight: 20px;
+}
+
+.texto{
+    size: 55px;
+    font-weight: 20px;
+    font-family: 'Lucida Sans';
+}
+
+.pai{
+height: 500px;
+width: 500px;
+background-color: lightblue;
+
+}
+
+.menu {
+display: inline;
+background-color: aquamarine;
+position: sticky;
+}
+
+div {
+height: 400px;
+width: 100px;
+background-color: blue;
+border: 10px solid ;
+border-color:darkorange;
+padding: 10px;
+font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+height: 400px;
+width: 100px;
+background-color: darkred;
+border: 10px solid ;
+border-color:darkgoldenrod;
+padding: 10px;
+font-family: 'Courier New', Courier, monospace;
+}
+p {
+height: 400px;
+width: 100px;
+background-color: rgb(30, 255, 0);
+border: 10px solid ;
+border-color:rgb(5, 176, 255);
+padding: 10px;
+font-family: 'Courier New', Courier, monospace;
+}
+
