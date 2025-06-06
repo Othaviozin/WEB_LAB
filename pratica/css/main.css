@@ -1,0 +1,62 @@
+#livros {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#livros td, #livros th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#livros tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#livros tr:hover {
+  background-color: #ddd;
+}
+
+#livros th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.darkTheme {
+  background-color: #2f364b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.darkTheme #livros {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.darkTheme #livros td,
+.darkTheme #livros th {
+  border: 1px solid #444;
+  padding: 8px;
+}
+
+.darkTheme #livros tr:nth-child(even) {
+  background-color: #2a2a2a;
+}
+
+.darkTheme #livros tr:hover {
+  background-color: #333;
+}
+
+.darkTheme #livros th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0d6efd;
+  color: #fff;
+}
